@@ -7,6 +7,7 @@ A Docker image based on cynkra/rig-ubuntu for development of duckdb, built daily
 From the main duckdb root:
 
 ```sh
+# docker pull --platform linux/amd64 ghcr.io/cynkra/rig-ubuntu-duckdb:main
 docker run --rm -ti --platform linux/amd64 -v $(pwd):/root/workspace ghcr.io/cynkra/rig-ubuntu-duckdb:main
 ```
 
